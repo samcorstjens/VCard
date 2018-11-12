@@ -1,1 +1,101 @@
 
+body {
+  background: #52BD47;
+  font-family: 'Times New Roman',Arial, sans-serif;
+  color: #313131;
+  font-size: 65%;
+  line-height: 1;
+}
+
+img { border: 0; max-width: 100%; }
+
+
+a {
+    color: #0F0F0F;
+    text-decoration: none; }
+a:hover {
+     text-decoration: underline; }
+
+#V {
+      display: block;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px 15px 45px 15px;
+      margin-top:150px;
+
+    }
+
+#Inhoud {
+      display: block;
+      width: 100%;
+      padding: 12px 20px 25px 20px;
+      padding-bottom: 35px;
+      background-image: linear-gradient(to bottom right, #515052, #25FF77);;
+      border-style: solid;
+      border-width:medium;
+}
+
+#Keuzelijst {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#Keuzelijst ul { list-style: none; }
+#Keuzelijst ul li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+}
+#Keuzelijst ul li a {
+  display: inline-block;
+  border: 2px solid #abd3ae;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding: 0px 10px;
+  margin-right: 2px;
+
+}
+
+
+
+#foto {
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+margin-right: 20px;
+margin-top:-20px;
+  width: 100px;
+}
+
+.Close {
+  display: none;
+}
+
+
+.lijst { display: inline-block; }
+
+.relative1 {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  top: 230px;
+  right:230px;
+  width: 300px;
+  height: 200px;
+}
+.Extralijst a{
+  color:#4392FF;
+  text-decoration: underline;
+  font-size:12px;
+}
+
+#omschrijving{
+  font-family: 'Times New Roman',Arial, sans-serif;
+  font-size: 15px;
+}
